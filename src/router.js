@@ -25,7 +25,7 @@ export const router = createBrowserRouter([
                 loader: async () => {
                     return fetch('https://api.jikan.moe/v4/anime?q=one piece')
                 }
-            }
+            }//teste
 
         ], errorElement: <ErrorPage></ErrorPage>
     }
